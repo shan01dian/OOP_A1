@@ -2,12 +2,20 @@ public class HealthProfessional {
     private String name;
     private int id;
     private String specialty;
+    //默认构造函数
+    public HealthProfessional() {
+        this.id=0;
+        this.name="";
+        this.specialty="";
+    }
     //初始化所有实例变量的构造函数
     public HealthProfessional(String name, int id, String specialty) {
         this.name = name;
         this.id = id;
         this.specialty = specialty;
     }
+
+
     //输出内容
     public void printDetails() {
         System.out.println("Name: " + name);
