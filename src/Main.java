@@ -1,12 +1,12 @@
 
 public class Main {
     public static void main(String[] args) {
-    GeneralPractitioner gp1 = new GeneralPractitioner("Central Hospital",101,"Dr.Alice","General Medicine");
-    GeneralPractitioner gp2 = new GeneralPractitioner("Central Hospital",102,"Dr.Wang","Pediatrician");
-    GeneralPractitioner gp3 = new GeneralPractitioner("Central Hospital",103,"Dr.Ben","Primary Care");
+    GeneralPractitioner gp1 = new GeneralPractitioner("General Medicine",101,"Dr.Alice","Central Hospital");
+    GeneralPractitioner gp2 = new GeneralPractitioner("General Medicine",102,"Dr.Wang","Central Hospital");
+    GeneralPractitioner gp3 = new GeneralPractitioner("General Medicine",103,"Dr.Ben","Central Hospital");
 
-    Specialist sp1 = new Specialist(201,"Dr. David", "Cardiology", "Cardiac Surgery");
-    Specialist sp2 = new Specialist(202, "Dr. Emma", "Neurology", "Brain and Nervous System");
+    Specialist sp1 = new Specialist("Nutritionist",201,"Dr.Chen","Central Hospital");
+    Specialist sp2 = new Specialist("Nurse",202,"Bob","Central Hospital");
     // 使用各自的 printDetails 方法打印详细信息
         System.out.println("General Practitioners:");
         gp1.printDetails();

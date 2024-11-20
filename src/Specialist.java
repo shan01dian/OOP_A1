@@ -1,13 +1,13 @@
-public class GeneralPractitioner  extends HealthProfessional{
+public class Specialist extends HealthProfessional{
     private String specialty;
 
 
-    public GeneralPractitioner() {
+    public Specialist() {
         super();
         this.specialty = " ";
 
     }
-    public GeneralPractitioner(String specialty,int id,String name,String hospitalName) {
+    public Specialist(String specialty,int id,String name,String hospitalName) {
         super();
         this.specialty = specialty;
 
