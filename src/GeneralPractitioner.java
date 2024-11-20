@@ -8,7 +8,7 @@ public class GeneralPractitioner  extends HealthProfessional{
 
     }
     public GeneralPractitioner(String specialty,int id,String name,String hospitalName) {
-        super();
+        super(name, id, hospitalName);
         this.specialty = specialty;
 
     }

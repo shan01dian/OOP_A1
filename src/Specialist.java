@@ -8,7 +8,7 @@ public class Specialist extends HealthProfessional{
 
     }
     public Specialist(String specialty,int id,String name,String hospitalName) {
-        super();
+        super(name, id, hospitalName);
         this.specialty = specialty;
 
     }
